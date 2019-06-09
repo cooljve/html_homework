@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="joiliu.jsp" method="post">
+    <div>
+        <h1>统一建模语言理论测试</h1>
+        <table>
+            <tbody>
+            <tr>
+                <td>考试科目：</td>
+                <td>统一建模语言</td>
+                <td>时间：</td>
+                <td>100分钟</td>
+                <td>得分：</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>班级：</td>
+                <td><input type="text" name="classroom"></td>
+                <td>学号：</td>
+                <td><input type="text" name="studentNum"></td>
+                <td>姓名：</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>一、填空题（每空5分，共20分）</h2>
+        <ol>
+            <li>UML的中文全称是：<input type="text" name="1-1"></li>
+            <li>对象最突出的特征是：
+                <input type="text" name="1-2-1">
+                <input type="text" name="1-2-2">
+                <input type="text" name="1-2-3">
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h2>二、选择题（每题10分，共20分）</h2>
+        <ol>
+            <li>UML与软件工程的关系是：</li>
+            <p><input type="radio" name="2-1" value="a">（A）UML就是软件工程</p>
+            <p><input type="radio" name="2-1" value="b">（B）UML参与到软件工程中软件开发过程的几个阶段</p>
+            <p><input type="radio" name="2-1" value="c">（C）UML与软件工程无关</p>
+            <p><input type="radio" name="2-1" value="d">（D）UML是软件工程的一部分</p>
+            <li>Java语言支持：
+                <p><input type="radio" name="2-2" value="a">（A）单继承</p>
+                <p><input type="radio" name="2-2" value="b">（B）多继承</p>
+                <p><input type="radio" name="2-2" value="c">（C）单继承和多继承都支持</p>
+                <p><input type="radio" name="2-2" value="d">（D）单继承和多继承都不支持</p>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h2>三、多选题（每题10分，共20分）</h2>
+        <ol>
+            <li>用例的粒度分为以下哪三种：
+                <p><input type="checkbox" name="3-1-1" value="a">（A）概述级</p>
+                <p><input type="checkbox" name="3-1-2" value="b">（B）需求级</p>
+                <p><input type="checkbox" name="3-1-3" value="c">（C）用户目标级</p>
+                <p><input type="checkbox" name="3-1-4" value="d">（D）子功能级</p>
+            </li>
+            <li>类图由以下哪三部分组成：
+                <p><input type="checkbox" name="3-2-1" value="a">（A）名称（Name）</p>
+                <p><input type="checkbox" name="3-2-2" value="b">（B）属性（Attribute）</p>
+                <p><input type="checkbox" name="3-2-3" value="c">（C）操作（Operation）</p>
+                <p><input type="checkbox" name="3-2-4" value="d">（D）方法（Function）</p>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h2>四、判断题（每题10分，共20分）</h2>
+        <ol>
+            <li>用例图知识用于和客户交流和沟通的，用于确定需求。
+                <input type="radio" name="4-1" value="true">√
+                <input type="radio" name="4-1" value="false">×
+            </li>
+            <li>在状态图中，终止状态在一个状态图中允许有任意多个。
+                <input type="radio" name="4-2" value="true">√
+                <input type="radio" name="4-2" value="false">×
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h2>五、简答题（每题20分，共20分）</h2>
+        <ol>
+            <li>简述什么是模型以及模型的表现形式？</li>
+            <textarea rows="10" cols="100" name="5-1"></textarea>
+        </ol>
+    </div>
+    <div>
+        <button type="submit">计算分数</button>
+    </div>
+</form>
+</body>
+</html>
